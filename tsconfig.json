@@ -1,9 +1,13 @@
 {
   "extends": "@tsconfig/node16/tsconfig.json",
   "compilerOptions": {},
-  "include": ["src"],
+  "include": [
+      "src",
+      "decs.d.ts"
+  ],
   "exclude": ["node_modules"],
   "compilerOptions": {
-    "outDir": "dist"
+      "strict": false,
+      "outDir": "dist"
   }
 }
